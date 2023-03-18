@@ -1,0 +1,10 @@
+name: "cicd"
+
+on: [push]
+
+jobs:
+    sample:
+        name: cicd job
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "cicd"
